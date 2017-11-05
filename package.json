@@ -1,0 +1,23 @@
+{
+  "name": "create-nwb-webpack-config",
+  "version": "1.0.0",
+  "description": "Creates NWB webpack configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": ["index.js"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenwf/create-nwb-webpack-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenwf/create-nwb-webpack-config/issues"
+  },
+  "homepage": "https://github.com/stephenwf/create-nwb-webpack-config#readme",
+  "dependencies": {
+    "nwb": "^0.19.1"
+  }
+}
