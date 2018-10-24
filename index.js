@@ -7,9 +7,10 @@ var nwbConfig = require(process.cwd() + '/nwb.config.js');
 
 module.exports = function createNwbWebpackConfig() {
   var args = {_: ['build-'+nwbConfig.type]};
-
+  var buildConfig = createBuildConfig(args, reactConfig(args).getBuildConfig(args));
+  delete buildConfig.plugins.html;
   return createWebpackConfig(
-      createBuildConfig(args, reactConfig(args).getBuildConfig(args)), {}, Object.assign({
+    buildConfig, {}, Object.assign({
         babel: {},
         devServer: {},
         karma: {},
