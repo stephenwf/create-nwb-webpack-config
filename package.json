@@ -17,7 +17,7 @@
     "url": "https://github.com/stephenwf/create-nwb-webpack-config/issues"
   },
   "homepage": "https://github.com/stephenwf/create-nwb-webpack-config#readme",
-  "dependencies": {
+  "peerDependencies": {
     "nwb": "^0.23.0"
   }
 }
