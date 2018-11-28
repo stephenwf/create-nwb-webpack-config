@@ -1,6 +1,6 @@
 {
   "name": "create-nwb-webpack-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates NWB webpack configuration",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/stephenwf/create-nwb-webpack-config#readme",
   "peerDependencies": {
-    "nwb": "^0.22.0"
+    "nwb": "^0.23.0"
   }
 }
